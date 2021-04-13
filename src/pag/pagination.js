@@ -8,7 +8,7 @@ export function makeApage(pageNumber) {
     itemsPerPage: 10,
     itemsToShow: [],
   };
-  const itemsIndex = pageNumber * pageInfo.itemsPerPage - pageInfo.itemsPerPage;
+  const itemsIndex = (pageNumber - 1) * pageInfo.itemsPerPage;
   let arr = [];
   for (let i = itemsIndex; i < items.length; i++) {
     if (arr.length < pageInfo.itemsPerPage) {
