@@ -28,6 +28,20 @@
   color: #61dafb;
 }
 
+.allPages {
+  display: flex;
+}
+
+.Pagination {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+.Active {
+  background-color: dodgerblue;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
