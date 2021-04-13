@@ -28,10 +28,6 @@
   color: #61dafb;
 }
 
-.allPages {
-  display: flex;
-}
-
 .Pagination {
   color: white;
   text-decoration: none;
