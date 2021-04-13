@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import { useState } from 'react';
+import logo from "./logo.svg";
+import "./App.css";
+import { useState } from "react";
 import { makeApage } from "./pag/pagination";
 
 function App() {
-
   const [ currentPage, setCurrentPage ] = useState(1);
   const page = makeApage(currentPage);
   const pagesNumber = Math.ceil(page.totalItemsNumber / page.itemsPerPage);
