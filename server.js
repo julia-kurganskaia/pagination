@@ -22,7 +22,7 @@ console.log(items)
 
 function makeApage(pageNumber) {
   let pageInfo = {
-    totalItemsNumber: 42,
+    totalItemsNumber: items.length,
     itemsPerPage: 5,
     itemsToShow: [],
   };
