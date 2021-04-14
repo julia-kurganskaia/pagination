@@ -38,7 +38,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>Pagination</h1>
+        <h1>The 100 Most Iconic Book Quotes</h1>
         <div className="ItemsToDisplay">
           {itemsToShow.map((item) => {
             return (
