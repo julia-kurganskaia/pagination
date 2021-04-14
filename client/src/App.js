@@ -46,13 +46,14 @@ function App() {
             )
           })}
         </div>
-        <div>
+        <div className="Pages-container">
           {pages.map((page) => {
             return (
               <a href="/" className={`Pagination${page === currentPage ? " Active" : ""}`} key={page} data-page={page} onClick={handleClick}>{page}</a>
             )})
           }
         </div>
+        <div className="Source">Source: https://www.bookbub.com/blog/famous-book-quotes</div>
       </header>
     </div>
   );
