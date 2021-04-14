@@ -59,8 +59,8 @@
 
 .Source {
   font-size: 15px;
-  padding-bottom: 15px;
-  color: azure;
+  padding-bottom: 20px;
+  color: rgb(111, 205, 243);
 }
 
 @keyframes App-logo-spin {

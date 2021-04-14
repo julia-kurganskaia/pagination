@@ -53,7 +53,9 @@ function App() {
             )})
           }
         </div>
-        <div className="Source">Source: https://www.bookbub.com/blog/famous-book-quotes</div>
+
+        <a href="https://www.bookbub.com/blog/famous-book-quotes" className="Source">Source</a>
+
       </header>
     </div>
   );
