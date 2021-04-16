@@ -18,8 +18,6 @@ file.on('line', (line) => {
   items.push(line)
 });
 
-console.log(items)
-
 function makeApage(pageNumber) {
   let pageInfo = {
     totalItemsNumber: items.length,
